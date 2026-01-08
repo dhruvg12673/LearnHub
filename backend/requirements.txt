@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-community
+langchain-ollama
+supabase
+psycopg2-binary
+requests
+python-dotenv
+pydantic
+faiss-cpu
+sentence-transformers
