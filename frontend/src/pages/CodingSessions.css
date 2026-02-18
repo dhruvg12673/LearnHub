@@ -1,0 +1,41 @@
+/* Coding Sessions Page */
+/* Note: Most styles are inherited from Home.css via class composition in JSX */
+
+/* Floating Action Button (FAB) */
+.fab-container {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem; /* Bottom Left as requested */
+    z-index: 50;
+}
+
+.fab-button {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    color: white;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.4);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+    cursor: pointer;
+}
+
+.fab-button:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 20px 25px -5px rgba(37, 99, 235, 0.5);
+}
+
+.fab-button:active {
+    transform: scale(0.95);
+}
+
+/* Modal specific overrides if any needed */
+.modal-submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
